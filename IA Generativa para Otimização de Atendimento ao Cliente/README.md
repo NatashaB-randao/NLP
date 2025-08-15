@@ -18,7 +18,6 @@ No cenário digital atual, empresas lidam com um volume massivo de interações 
 *   **Análise de Sentimento:** Classifica o tom emocional de cada tweet como `positivo`, `negativo` ou `neutro` usando NLTK (VADER).
 *   **Geração Contextual de Respostas:** Utiliza o modelo `gpt2` da Hugging Face com a técnica de "One-Shot Prompting" para gerar respostas coerentes.
 
-*(Adicione aqui um GIF ou imagem do seu dashboard Streamlit em ação, se aplicável)*
 
 ---
 
@@ -31,7 +30,6 @@ No cenário digital atual, empresas lidam com um volume massivo de interações 
 | **NLTK (VADER)**             | Usado para a análise de sentimentos, sendo uma ferramenta especializada em textos de redes sociais.                                                                                                                 |
 | **Transformers (Hugging Face)** | O coração da modelagem. Utilizado para carregar e executar o LLM `gpt2`, gerenciando o processo de tokenização e geração de texto.                                                                                |
 | **PyTorch / TensorFlow**     | O motor computacional que roda "por baixo dos panos" da biblioteca `transformers`, realizando os cálculos em tensores e otimizando para GPU.                                                                       |
-| **Streamlit**                | Usado para criar um dashboard web interativo e apresentar o modelo como um produto final.                                                                                                                         |
 | **Jupyter/Kaggle Notebooks** | O ambiente de desenvolvimento interativo onde todo o projeto foi prototipado e documentado.                                                                                                                       |
 
 ---
@@ -62,7 +60,7 @@ Para executar o dashboard interativo em sua máquina, siga os passos abaixo.
 *   Python 3.9+
 *   `pip` e `venv`
 
-**1. Clone o repositório:**
+### 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
@@ -90,13 +88,6 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### 4. Execute o aplicativo Streamlit:
-
-```bash
-streamlit run app.py
-```
-
-Abra seu navegador e acesse `http://localhost:8501`.
 
 ## 🏆 Desafios e Aprendizados
 
@@ -119,5 +110,5 @@ A principal lição aprendida foi que a **escolha do modelo e a técnica de prom
 ## 👤 Autor
 
 **Natasha Brandão**
-- **LinkedIn**: https://www.linkedin.com/in/natasha-brand%C3%A3o/
-- **GitHub**: https://github.com/NatashaB-randao
+- **[LinkedIn](https://www.linkedin.com/in/natasha-brand%C3%A3o/)**
+- **[GitHub](https://github.com/NatashaB-randao)**
