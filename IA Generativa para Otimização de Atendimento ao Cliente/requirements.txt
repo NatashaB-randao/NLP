@@ -7,10 +7,3 @@ transformers
 torch
 streamlit```
 
-### Como Usar:
-
-1.  **Salve o arquivo:** Coloque este arquivo `requirements.txt` na pasta raiz do seu projeto no GitHub.
-2.  **Instalação:** Agora, qualquer pessoa que clonar seu repositório pode criar um ambiente virtual e instalar todas essas dependências de uma só vez com um único comando:
-    ```bash
-    pip install -r requirements.txt
-    ```
