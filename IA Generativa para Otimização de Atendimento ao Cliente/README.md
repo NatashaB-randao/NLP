@@ -66,11 +66,8 @@ Para executar o dashboard interativo em sua máquina, siga os passos abaixo.
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
+```
 
-
-# Guia de Configuração e Documentação do Projeto
-
-## 🚀 Configuração do Ambiente
 
 ### 2. Crie e ative um ambiente virtual:
 
